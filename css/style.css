@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+.header {
+  background-color: #de5d5d;
+  background-image: url("../img/iphone_header.png");
+  -webkit-background-size: 1554px 887px;
+          background-size: 1554px 887px;
+  height: 800px;
+  background-repeat: no-repeat; }
+  .header .collapse {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLnNjc3MiLCJfaGVhZGVyLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsaUZBQVk7QUNBWjtFQUVJLHlCQUF5QjtFQUN6QixpREFBaUQ7RUFFakQscUNBQTZCO1VBQTdCLDZCQUE2QjtFQUM3QixhQUFhO0VBQ2IsNEJBQTRCLEVBQUE7RUFQaEM7SUFTUSx5QkFBOEI7SUFBOUIsc0NBQThCO1FBQTlCLHNCQUE4QjtZQUE5Qiw4QkFBOEIsRUFBQSIsImZpbGUiOiJzdHlsZS5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAaW1wb3J0IHVybCgnaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3MyP2ZhbWlseT1WYXJlbGErUm91bmQmZGlzcGxheT1zd2FwJyk7XG5AaW1wb3J0ICdoZWFkZXInOyIsIi5oZWFkZXIge1xuICAgIC8vcG9zaXRpb246IGZpeGVkO1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNkZTVkNWQ7XG4gICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKCcuLi9pbWcvaXBob25lX2hlYWRlci5wbmcnKTtcbiAgICAvL2JhY2tncm91bmQtaW1hZ2U6IGxpbmVhci1ncmFkaWVudCgwLjBkZWcsICNkZTVkNWQgMjAlLCByZ2JhKDIyMiwgOTMsIDkzLCAwLjQzKSA1OSUsIHJnYmEoMjIyLCA5MywgOTMsIDAuMCkgOTklKTtcbiAgICBiYWNrZ3JvdW5kLXNpemU6IDE1NTRweCA4ODdweDtcbiAgICBoZWlnaHQ6IDgwMHB4O1xuICAgIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gICAgLmNvbGxhcHNlIHtcbiAgICAgICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xuICAgIH1cbn0iXX0= */
