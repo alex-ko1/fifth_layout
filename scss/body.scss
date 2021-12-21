@@ -1,3 +1,15 @@
+$font-subtitle:'Varela Round',
+sans-serif;
+$font-title: 'Montserrat',
+sans-serif;
+$font-logo:'Myriad Pro',
+sans-serif;
+@mixin fonts-style {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
 body {
-    font-family: 'Varela Round', sans-serif;
+    font-family: $font-subtitle;
 }

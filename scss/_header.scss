@@ -1,11 +1,28 @@
 .header {
     //position: fixed;
     background-color: #de5d5d;
-    background-image: url('../img/iphone_header.png');
-    //background-image: linear-gradient(0.0deg, #de5d5d 20%, rgba(222, 93, 93, 0.43) 59%, rgba(222, 93, 93, 0.0) 99%);
-    background-size: 1554px 887px;
-    height: 800px;
-    background-repeat: no-repeat;
+    color: #fff;
+    .container {
+        width: 1330px;
+        padding: 0;
+    }
+    .navbar {
+        padding-left: 136px;
+    }
+    .logo a {
+        font-family: $font-logo;
+        font-size: 50px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    ul {
+        padding-top: 12px;
+        gap: 26px;
+        li a {
+            @include fonts-style;
+            color: #fff;
+        }
+    }
     .collapse {
         justify-content: space-between;
     }

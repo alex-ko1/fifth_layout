@@ -1,0 +1,22 @@
+.head {
+    background-color: #de5d5d;
+    color: #fff;
+    background-image: url('../img/iphone1.png');
+    background-size: 1554px 887px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: top;
+    .head__title {
+        text-align: center;
+        @include fonts-style;
+        font-family: $font-title;
+        font-size: 90px;
+        font-weight: 500;
+        padding-top: 202px;
+        padding-left: 155px;
+    }
+    button:hover img {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+}
