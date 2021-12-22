@@ -3,20 +3,41 @@
     color: #fff;
     background-image: url('../img/iphone1.png');
     background-size: 1554px 887px;
-    height: 800px;
+    height: 696px;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: 79% 7px;
     .head__title {
         text-align: center;
         @include fonts-style;
         font-family: $font-title;
         font-size: 90px;
         font-weight: 500;
-        padding-top: 202px;
-        padding-left: 155px;
+        padding: 202px 0 64px 155px;
+    }
+    button {
+        @include fonts-style;
+        font-family: $font-subtitle;
+        font-size: 30px;
+        img {
+            margin: 0 0 3px 7px;
+        }
+        span {
+            padding: 10px 0 0 15px;
+        }
     }
     button:hover img {
         -webkit-filter: grayscale(100%);
         filter: grayscale(100%);
+    }
+    .carousel-item {
+        align-items: initial;
+        display: flex;
+        gap: 24px;
+        margin: 0 0 0 64px;
+        justify-content: center;
+        .head__button {
+            border: 3px solid transparent;
+            padding: 0.5rem 0.75rem;
+        }
     }
 }

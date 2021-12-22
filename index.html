@@ -51,11 +51,34 @@
         <div class="container">
             <div class="head-wrapper">
                 <h1 class="head__title">Capture and Share</h1>
-                <button type="button" class="btn btn-outline-light"><img src="img/icon_appstore.png"><span>App Store</span></button>
-                <button type="button" class="btn btn-outline-light"><img src="img/icon_playstore.png"><span>Play Store</span></button>
+                <div id="carouselExampleIndicators carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <button type="button" class="btn btn-outline-light head__button"><img src="img/icon_appstore.png"><span>App Store</span></button>
+                            <button type="button" class="btn btn-outline-light head__button"><img src="img/icon_playstore.png"><span>Play Store</span></button>
+                        </div>
+                        <div class="carousel-item">
+                            <button type="button" class="btn btn-outline-light head__button"><img src="img/icon_appstore.png"><span>App Store</span></button>
+                        </div>
+                        <div class="carousel-item">
+                            <button type="button" class="btn btn-outline-light head__button"><img src="img/icon_playstore.png"><span>Play Store</span></button>
+                        </div>
+                    </div>
+                    </button>
+                </div>
+
             </div>
         </div>
     </div>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
