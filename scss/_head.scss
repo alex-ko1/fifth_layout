@@ -8,14 +8,14 @@
     background-position: 79% 7px;
     .head__title {
         text-align: center;
-        @include fonts-style;
+        @include title;
         font-family: $font-title;
         font-size: 90px;
         font-weight: 500;
         padding: 202px 0 64px 155px;
     }
     button {
-        @include fonts-style;
+        @include title;
         font-family: $font-subtitle;
         font-size: 30px;
         img {

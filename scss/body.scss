@@ -4,7 +4,7 @@ $font-title: 'Montserrat',
 sans-serif;
 $font-logo:'Myriad Pro',
 sans-serif;
-@mixin fonts-style {
+@mixin title {
     font-size: 18px;
     line-height: 1.2;
     font-weight: 400;
@@ -12,4 +12,8 @@ sans-serif;
 
 body {
     font-family: $font-subtitle;
+}
+
+.container {
+    width: 1170px;
 }
