@@ -1,0 +1,21 @@
+.share {
+    height: 734px;
+    background-color: #262626;
+    .share-wrapper {
+        display: flex;
+        img.share__img {
+            height: 689px;
+            width: 664px;
+        }
+        .share__title {
+            @include title;
+            color: #fff;
+        }
+        .share__subtitle {
+            font-style: $font-subtitle;
+            font-size: 18px;
+            line-height: 27px;
+            color: #aeaeae;
+        }
+    }
+}

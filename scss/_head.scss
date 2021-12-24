@@ -5,19 +5,18 @@
     background-size: 1554px 887px;
     height: 696px;
     background-repeat: no-repeat;
-    background-position: 79% 7px;
+    background-position: 52% 7px;
     .head__title {
         text-align: center;
         @include title;
-        font-family: $font-title;
         font-size: 90px;
         font-weight: 500;
-        padding: 202px 0 64px 155px;
+        padding: 202px 0 64px;
     }
     button {
-        @include title;
         font-family: $font-subtitle;
         font-size: 30px;
+        line-height: 1.2;
         img {
             margin: 0 0 3px 7px;
         }
@@ -32,8 +31,8 @@
     .carousel-item {
         align-items: initial;
         display: flex;
-        gap: 24px;
-        margin: 0 0 0 64px;
+        gap: 48px;
+        margin: 0;
         justify-content: center;
         .head__button {
             border: 3px solid transparent;

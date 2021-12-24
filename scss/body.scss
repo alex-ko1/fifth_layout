@@ -5,6 +5,14 @@ sans-serif;
 $font-logo:'Myriad Pro',
 sans-serif;
 @mixin title {
+    font-family: $font-title;
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+@mixin little-title {
+    font-family: $font-title;
     font-size: 18px;
     line-height: 1.2;
     font-weight: 400;
