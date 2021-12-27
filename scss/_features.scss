@@ -1,0 +1,93 @@
+.features {
+    //height: 803px;
+    background-color: #313131;
+    z-index: 2;
+    position: relative;
+    .features-wrapper {
+        display: flex;
+        img.features__img {
+            height: 460px;
+            width: 705px;
+            padding: 100px 0 0 61px;
+        }
+        .features__title {
+            @include title;
+            color: #fff;
+            margin: 165px 0 0 90px;
+        }
+        .features__subtitle {
+            font-style: $font-subtitle;
+            font-size: 18px;
+            line-height: 27px;
+            color: #aeaeae;
+            padding: 24px 0 0 90px;
+        }
+        .features__slider-item {
+            display: flex;
+            background-color: #fff;
+            .features__slider-title {
+                color: #cc5858;
+                font-size: 18px;
+                &.item-2 {
+                    color: aqua;
+                }
+                &.item-3 {
+                    color: darkblue;
+                }
+                &.item-4 {
+                    color: darkmagenta;
+                }
+                &.item-4 {
+                    color: darkorchid;
+                }
+                &.item-5 {
+                    color: gold;
+                }
+                &.item-6 {
+                    color: greenyellow;
+                }
+                &.item-2 {
+                    color: green;
+                }
+            }
+        }
+        .features__slider {
+            min-width: 0;
+            overflow: hidden;
+            .slick-slide {
+                width: 400px;
+            }
+            .features__slider-item {
+                display: flex;
+                min-width: 0;
+            }
+            .slick-list {
+                overflow: hidden;
+            }
+            .slick-track {
+                display: flex;
+            }
+            .slick-dots {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                li {
+                    list-style: none;
+                    margin: 0 5px;
+                }
+                button {
+                    font-size: 0;
+                    width: 9px;
+                    height: 12px;
+                    background-color: transparent;
+                    border: 1px solid #fff;
+                    border-radius: 50%;
+                }
+                li.slick-active button {
+                    background-color: #fff;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}

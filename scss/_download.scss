@@ -1,0 +1,23 @@
+.download {
+    //height: 803px;
+    background-color: #de5d5d;
+    z-index: 2;
+    position: relative;
+    .download-wrapper {
+        display: flex;
+        img.download__img {
+            height: 460px;
+            width: 705px;
+        }
+        .download__title {
+            @include title;
+            color: #fff;
+        }
+        .download__subtitle {
+            font-style: $font-subtitle;
+            font-size: 18px;
+            line-height: 27px;
+            color: #fff;
+        }
+    }
+}

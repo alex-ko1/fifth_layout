@@ -3,19 +3,58 @@
     background-color: #262626;
     .share-wrapper {
         display: flex;
-        img.share__img {
-            height: 689px;
-            width: 664px;
+        .share__img img {
+            //height: 689px;
+            //width: 664px;
+            z-index: 1;
+            margin: 72px 0 0 -109px;
         }
         .share__title {
             @include title;
             color: #fff;
+            margin: 184px 0 0 5px;
         }
         .share__subtitle {
             font-style: $font-subtitle;
             font-size: 18px;
             line-height: 27px;
             color: #aeaeae;
+            margin-top: 17px;
+            padding: 0 104px 0 7px;
+        }
+        .share__slider {
+            min-width: 0;
+            .share__slider-item {
+                display: flex;
+                min-width: 0;
+            }
+            .slick-list {
+                overflow: hidden;
+            }
+            .slick-track {
+                display: flex;
+            }
+            .slick-dots {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                li {
+                    list-style: none;
+                    margin: 0 3px;
+                }
+                button {
+                    font-size: 0;
+                    width: 9px;
+                    height: 12px;
+                    background-color: transparent;
+                    border: 1px solid #fff;
+                    border-radius: 50%;
+                }
+                li.slick-active button {
+                    background-color: #fff;
+                    border-radius: 50%;
+                }
+            }
         }
     }
 }

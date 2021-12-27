@@ -1,0 +1,16 @@
+.gallery {
+    //height: 803px;
+    background-color: #fff;
+    .gallery-wrapper {
+        .gallery__title {
+            @include title;
+            color: #f06464;
+        }
+        .gallery__subtitle {
+            font-style: $font-subtitle;
+            font-size: 18px;
+            line-height: 27px;
+            color: #aeaeae;
+        }
+    }
+}
