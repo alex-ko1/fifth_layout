@@ -8,6 +8,9 @@
     }
     .navbar {
         padding-left: 71px;
+        .nav-link {
+            color: #fff;
+        }
     }
     .logo a {
         font-family: $font-title;
@@ -20,8 +23,8 @@
         gap: 22px;
         li a {
             @include little-title;
-            color: #fff;
         }
+        li {}
     }
     .collapse {
         justify-content: space-between;
