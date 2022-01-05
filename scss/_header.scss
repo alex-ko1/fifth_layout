@@ -2,12 +2,14 @@
     //position: fixed;
     background-color: #de5d5d;
     color: #fff;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.1);
     .container {
         width: 1330px;
         padding: 0;
     }
     .navbar {
         padding-left: 71px;
+        margin-top: 2px;
         .nav-link {
             color: #fff;
         }

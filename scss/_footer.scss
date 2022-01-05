@@ -1,0 +1,29 @@
+footer {
+    background-color: #f4f4f4;
+    .footer-wrapper {
+        .footer-copyright {
+            padding: 93px 0 61px 2px;
+            //padding: 0;
+            @include little-title;
+        }
+        .footer__submit {
+            padding-left: 18px;
+            input {
+                width: 311px;
+                padding: 10px 0 12px 13px;
+            }
+            .footer__submit-txt {
+                padding: 60px 0 13px;
+            }
+            .button {
+                padding: 0;
+                button {
+                    padding: 12px 23px 10px;
+                    background-color: #f06464;
+                    border-color: #f06464;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}
