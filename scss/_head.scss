@@ -5,7 +5,8 @@
     background-size: 1554px 887px;
     height: 696px;
     background-repeat: no-repeat;
-    background-position: 52% 7px;
+    background-position: 51% 7px;
+    margin-top: 92px;
     .head__title {
         text-align: center;
         @include title;
@@ -17,8 +18,9 @@
         font-family: $font-subtitle;
         font-size: 30px;
         line-height: 1.2;
+        width: 245px;
         img {
-            margin: 0 0 3px 7px;
+            //margin: 0 0 3px 7px;
         }
         span {
             padding: 10px 0 0 15px;
@@ -51,6 +53,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            padding-left: 0;
             li {
                 list-style: none;
                 margin: 0 3px;

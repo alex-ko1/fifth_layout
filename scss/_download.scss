@@ -8,16 +8,21 @@
         img.download__img {
             height: 460px;
             width: 705px;
+            margin: 224px 0 0 84px;
         }
-        .download__title {
-            @include title;
-            color: #fff;
-        }
-        .download__subtitle {
-            font-style: $font-subtitle;
-            font-size: 18px;
-            line-height: 27px;
-            color: #fff;
-        }
+        .download__text{
+            .download__title {
+                @include title;
+                color: #fff;
+                padding-right: 266px;
+            }
+            .download__subtitle {
+                font-style: $font-subtitle;
+                font-size: 18px;
+                line-height: 27px;
+                color: #fff;
+            }
+        }    
+
     }
 }

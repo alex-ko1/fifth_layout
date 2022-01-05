@@ -1,14 +1,14 @@
 .features {
-    //height: 803px;
+    height: 803px;
     background-color: #313131;
-    z-index: 2;
     position: relative;
+    overflow: hidden;
     .features-wrapper {
         display: flex;
-        img.features__img {
-            height: 460px;
-            width: 705px;
-            padding: 100px 0 0 61px;
+        img {
+
+
+            padding: 99px 0 0 61px; 
         }
         .features__title {
             @include title;
