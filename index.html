@@ -12,42 +12,29 @@
 
 <body>
     <header class="header fixed-top">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light ">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse header__menu" id="navbarTogglerDemo01">
-                    <div class="logo"><a class="navbar-brand" href="#">ama</a></div>
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
-                            <a class="nav-link header__link" href="#">Hello </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link header__link" href="#">Overview</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link header__link" href="#">Share</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link header__link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link header__link" href="#">Gallery</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link header__link" href="#">Download</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="#">Compatibility</a>
-                        </li>
-                    </ul>
-
-                </div>
-            </nav>
-        </div>
-    </header>
-    <div class="head">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <a class="navbar-brand logo" href="#">ama</a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarMain"
+              aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse justify-content-end collapse header__menu" id="navbarMain">
+              <div class="navbar-nav align-items-center">
+                <a class="nav-item nav-link header__link" href="#head">Hello</a>
+                <a class="nav-item nav-link header__link" href="#overview">Overview</a>
+                <a class="nav-item nav-link header__link" href="#share">Share</a>
+                <a class="nav-item nav-link header__link" href="#features">Features</a>
+                <a class="nav-item nav-link header__link" href="#gallery">Gallery</a>
+                <a class="nav-item nav-link header__link" href="#download">Download</a>
+                <a class="nav-item nav-link header__link header__link-last" href="#compatibility">Compatibility</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+    <main>
+    <div class="head" id="head">
         <div class="container">
             <div class="head-wrapper">
                 <h1 class="head__title">Capture and Share</h1>
@@ -58,8 +45,8 @@
                         <button type="button" class="btn btn-outline-light head__button"><img src="img/icon_playstore.png"><span>Play Store</span></button>
                     </div>
                     <div class="head__slider-item">
-                        <button type="button" class="btn btn-outline-light head__button"><img src="img/icon_playstore.png"><span>Play Store</span></button>
                         <button type="button" class="btn btn-outline-light head__button"><img src="img/icon_appstore.png"><span>App Store</span></button>
+                        <button type="button" class="btn btn-outline-light head__button"><img src="img/icon_playstore.png"><span>Play Store</span></button>
                     </div>
                     <div class="head__slider-item">
                         <button type="button" class="btn btn-outline-light head__button"><img src="img/icon_appstore.png"><span>App Store</span></button>
@@ -70,7 +57,7 @@
             </div>
         </div>
     </div>
-    <div class="overview">
+    <div class="overview" id="overview">
         <div class="container">
             <div class="overview-wrapper">
                 <h1 class="overview__title">Why ama?</h1>
@@ -94,7 +81,7 @@
             </div>
         </div>
     </div>
-    <div class="share">
+    <div class="share" id="share">
         <div class="container">
             <div class="share-wrapper">
                 <div class="share__img">
@@ -135,7 +122,7 @@
             </div>
         </div>
     </div>
-    <div class="features">
+    <div class="features" id="features">
         <div class="container">
             <div class="features-wrapper">
                 <div class="row">
@@ -230,7 +217,7 @@
         </div>
     </div>
     </div>
-    <div class="gallery">
+    <div class="gallery" id="gallery">
         <div class="container">
             <div class="gallery-wrapper">
 
@@ -282,7 +269,7 @@
             </div>
         </div>
     </div>
-    <div class="download">
+    <div class="download" id="download">
         <div class="container">
             <div class="download-wrapper">
                 <div class="row">
@@ -301,7 +288,7 @@
             </div>
         </div>
     </div>
-    <div class="compatibility">
+    <div class="compatibility" id="compatibility">
         <div class="container">
             <div class="compatibility-wrapper">
                 <h1 class="compatibility__title col-10">Compatibility</h1>
@@ -320,7 +307,8 @@
             </div>
         </div>
     </div>
-    <footer class="bg-light text-center text-lg-start">
+    </main>
+    <footer class="bg-light text-center text-lg-start page-footer">
         <div class="container">
             <div class="footer-wrapper row">
                 <div class="col-7 footer-copyright">

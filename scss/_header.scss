@@ -4,29 +4,36 @@
     color: #fff;
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.1);
     .container {
-        width: 1330px;
         padding: 0;
     }
     .navbar {
-        padding-left: 71px;
-        margin-top: 2px;
+        padding: 0;
         .nav-link {
             color: #fff;
+            transition: border-width 0.1s linear;
+            &:hover{
+            border-top: 5px solid #FFFFFF;
+            }
+            &.header__link{
+            margin-right:27px;
+            padding-top: 21px;
+            }
+            &.header__link-last{
+                margin-right: 0;
+                padding-right: 0;
+            }
         }
     }
-    .logo a {
+    .logo {
         font-family: $font-title;
         font-size: 50px;
         font-weight: 700;
         color: #ffffff;
+        padding: 19px 0 16px;
     }
-    ul {
-        padding: 12px 65px 0 0;
-        gap: 22px;
-        li a {
-            @include little-title;
-        }
-        li {}
+    a {
+        @include little-title;
+        font-family: $font-subtitle;
     }
     .collapse {
         justify-content: space-between;

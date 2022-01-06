@@ -25,6 +25,9 @@
                 height: 520px;
             }
             .gallery__photo-l{
+                position: absolute;
+                width: 100%;
+                bottom: -39px;
                 display: none;
                 justify-content: space-between;
                 background-color: #151515;
@@ -38,7 +41,7 @@
                     font-size: 18px;
                     color: #c2c2c2;
                     margin: auto 0;
-                    padding: 29px 13px 30px;
+                    padding: 20px 13px 34px;
                 }
                 .l-num{
                     font-style: $font-subtitle;
@@ -51,17 +54,34 @@
                 }
             }
         }
+        .gallery__photo-1:hover,
+        .gallery__photo-2:hover,
+        .gallery__photo-3:hover,
+        .gallery__photo-4:hover{
+            -webkit-transform: translate(0px, -38px);
+            -webkit-transition: .5s ease-in-out;
+            -moz-transition: .5s ease-in-out;
+            -o-transition: .5s ease-in-out;
+            transition: .5s ease-in-out;
+        }
         .gallery__photo-1:hover .gallery__photo-l,
         .gallery__photo-2:hover .gallery__photo-l,
         .gallery__photo-3:hover .gallery__photo-l,
         .gallery__photo-4:hover .gallery__photo-l{
             display: flex;
         }
-        .gallery__photo-2{
+        .gallery__photo-1,
+        .gallery__photo-2,
+        .gallery__photo-3,
+        .gallery__photo-4{
+            position: relative;
+        }
+        .gallery__photo-2 img{
             width: 518px;
         }
-        .gallery__photo-3{
+        .gallery__photo-3 img{
             width: 517px;
         }
+
     }
 }

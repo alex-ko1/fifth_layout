@@ -2,6 +2,7 @@
     text-align: center;
     .overview-wrapper {
         padding-bottom: 112px;
+        color: #666666;
         h1.overview__title {
             @include title;
             color: #3a3a3a;
@@ -10,7 +11,7 @@
         }
         div.overview__title {
             @include little-title;
-            color: #666666;
+            
             margin: 39px 15px 0 0;
         }
         .overview__subtitle {
