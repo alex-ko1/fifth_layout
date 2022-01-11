@@ -61,18 +61,18 @@
         <div class="container">
             <div class="overview-wrapper">
                 <h1 class="overview__title">Why ama?</h1>
-                <div class="row">
-                    <div class="col">
+                <div class="row justify-content-around">
+                    <div class="col-12 col-md-4 col-lg-3">
                         <img src="img/focus.png" alt="">
                         <div class="overview__title">Auto focus</div>
                         <div class="overview__subtitle">ultrices nisl sit amet luctus. Donec volutpat arcu ullamcorper facilisis vulputate. Sed auctor</div>
                     </div>
-                    <div class="col overview__col">
+                    <div class="col-12 col-md-4 col-lg-3 overview__col">
                         <img src="img/touch_id.png" alt="">
                         <div class="overview__title">Secured with Touch ID</div>
                         <div class="overview__subtitle">ultrices nisl sit amet luctus. Donec volutpat arcu ullamcorper facilisis vulputate. Sed auctor </div>
                     </div>
-                    <div class="col overview__col">
+                    <div class="col-12 col-md-4 col-lg-3 overview__col">
                         <img src="img/filters.png" alt="">
                         <div class="overview__title">Your Filters</div>
                         <div class="overview__subtitle">ultrices nisl sit amet luctus. Donec volutpat arcu ullamcorper facilisis vulputate. Sed auctor </div>
@@ -84,13 +84,34 @@
     <div class="share" id="share">
         <div class="container">
             <div class="share-wrapper">
-                <div class="share__img">
-                    <img src="img/iphone2.png" alt="">
-                </div>
+                
                 <div class="share__text">
                     <h1 class="share__title">Share instantly</h1>
                     <div class="share__subtitle">
                         <p>Mauris euismod ultrices nisl sit amet luctus. Donec volutpat arcu ullamcorper facilisis vulputate. Sed auctor pulvinar ornare. Donec gravida.</p>
+                    </div>
+                    <div class="share__sliderr">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                              <li data-target="#myCarousel" data-slide-to="1"></li>
+                              <li data-target="#myCarousel" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img class="d-block w-100" src="img/video-1.png" alt="First slide">
+                              </div>
+                              <div class="carousel-item">
+                                <img class="d-block w-100" src="img/video-1.png" alt="Second slide">
+                              </div>
+                              <div class="carousel-item">
+                                <img class="d-block w-100" src="img/video-1.png" alt="Third slide">
+                              </div>
+                            </div>
+                        </div>
+                        <div class="share__slider-subt">
+                            Mauris euismod ultrices nisl sit amet luctus. Donec volutpat arcu ullamcorper facilisis vulputate. Sed auctor pulvinar.
+                        </div>
                     </div>
                     <!-- <div class="share__slider">
                         <div class="share__slider-item">
@@ -119,6 +140,9 @@
                         </div>
                     </div> -->
                 </div>
+                <div class="share__img">
+                    <img src="img/iphone2.png" alt="">
+                </div>
             </div>
         </div>
     </div>
@@ -126,10 +150,10 @@
         <div class="container">
             <div class="features-wrapper">
                 <div class="row">
-                    <div class="col-6 ">
+                    <div class="col-12 col-lg-6 ">
                         <h1 class="features__title">New Features</h1>
                         <p class="features__subtitle">Mauris euismod ultrices nisl sit amet luctus. Donec volutpat arcu ullamcorper facilisis vulputate. Sed auctor pulvinar ornare. Donec gravida.</p>
-                        <!-- <div class="features__slider">
+                        <div class="features__slider">
                             <div class="features__slider-item">
                                 <div class="features__slider-flex-1">
                                     <div class="features__slider-img"><img src="img/brush.png" alt=""></div>
@@ -207,9 +231,9 @@
                                     </div>
                                 </div>
                             </div>
-                        </div> -->
+                        </div>
                     </div>
-                    <div class="col-6 ">
+                    <div class="col-12 col-lg-6 ">
                         <img src="img/phone.png" alt="">
                     </div>
                 </div>
@@ -227,9 +251,9 @@
                 </div>
             </div>
         </div>
-        <div class="slider">
+        <div class="gallery__slider">
             <div class="row">
-                <div class="col gallery__photo-1">
+                <div class="col-12 col-md-4 col-xl-auto gallery__photo-item gallery__photos">
                     <img src="img/gallery_1.png" alt="">
                     <div class="gallery__photo-l">
                         <p class="gallery__subtitle">Mauris euismod ultrices</p>
@@ -239,7 +263,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col gallery__photo-2"><img src="img/gallery_2.png" alt="">
+                <div class="col-12 col-md-5 col-xl-auto gallery__photo-item gallery__photo-2 gallery__photos"><img src="img/gallery_2.png" alt="">
                     <div class="gallery__photo-l">
                         <p class="gallery__subtitle">Mauris euismod ultrices</p>
                         <div class="gallery__photo-l-num">
@@ -248,7 +272,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col gallery__photo-3"><img src="img/gallery_33.png" alt="">
+                <div class="col-12 col-md-5 col-xl-auto gallery__photo-item gallery__photo-3 gallery__photos"><img src="img/gallery_33.png" alt="">
                     <div class="gallery__photo-l">
                         <p class="gallery__subtitle">Mauris euismod ultrices</p>
                         <div class="gallery__photo-l-num">
@@ -256,8 +280,8 @@
                             <p class="l-num">65 </p>
                         </div>
                     </div>
-                </div>
-                <div class="col gallery__photo-4"><img src="img/gallery_4.png" alt="">
+            </div>
+                <div class="col-12 col-md-5 col-xl-auto gallery__photo-item gallery__photos"><img src="img/gallery_4.png" alt="">
                     <div class="gallery__photo-l">
                         <p class="gallery__subtitle">Mauris euismod ultrices</p>
                         <div class="gallery__photo-l-num">
@@ -273,15 +297,15 @@
         <div class="container">
             <div class="download-wrapper">
                 <div class="row">
-                    <div class="col-5 download__img">
+                    <div class="col-12 col-md-auto download__img">
                         <img src="img/app_icon.png" alt="">
                     </div>
-                    <div class=" col-6 download__text">
+                    <div class=" col-12 col-md-6 download__text">
                         <h1 class="col-9 download__title">Believe me, <br>you don’t wanna miss this app.</h1>
                         <p class="download__subtitle">- Newyork Times</p>
                         <div class="download__button row">
-                            <button type="button" class="col btn btn-outline-light head__button button-as"><img src="img/icon_appstore.png"><span>App Store</span></button>
-                            <button type="button" class="col btn btn-outline-light head__button button-ps"><img src="img/icon_playstore.png"><span>Play Store</span></button>
+                            <button type="button" class="col-12 col-md-6 btn btn-outline-light head__button button-as"><img src="img/icon_appstore.png"><span>App Store</span></button>
+                            <button type="button" class="col-12 col-md-6 btn btn-outline-light head__button button-ps"><img src="img/icon_playstore.png"><span>Play Store</span></button>
                         </div>
                     </div>
                 </div>
@@ -292,13 +316,13 @@
         <div class="container">
             <div class="compatibility-wrapper">
                 <h1 class="compatibility__title col-10">Compatibility</h1>
-                <div class="row justify-content-center compasibility__txt">
-                    <div class="col-5 compatibility__txt-ios">
+                <div class="row justify-content-center justify-content-md-center compasibility__txt">
+                    <div class="col-12 col-md-5 compatibility__txt-ios">
                         <div class="compatibility__title">iOS</div>
                         <div class="compatibility__subtitle">Requires iOS 6.0 or later. Compatible with iPhone, iPad, and iPod touch. This app is optimized for iPhone 5.</div>
                         <div class="compatibility__img"><img src="img/ios_devices.png" alt=""></div>
                     </div>
-                    <div class="col-5 compatibility__txt-android">
+                    <div class="col-12 col-md-5 compatibility__txt-android">
                         <div class="compatibility__title">Android</div>
                         <div class="compatibility__subtitle">Compatible with Android KitKat 4.4 or later.<br> Support for x86 devices (i.e. Samsung Galaxy Tab 3 10.1).</div>
                         <div class="compatibility__img"><img src="img/android_devices.png" alt=""></div>
@@ -311,14 +335,13 @@
     <footer class="bg-light text-center text-lg-start page-footer">
         <div class="container">
             <div class="footer-wrapper row">
-                <div class="col-7 footer-copyright">
+                <div class="col-12 col-md-7 footer-copyright">
                     © 2014 ama. All Rights Reserved.
                 </div>
-                <div class="footer__submit col-5">
+                <div class="footer__submit col-12 col-md-5 p-4">
                     <div class="footer__submit-txt">Subscribe our email newsletter.</div>
                     <form class="row g-3">
                         <div class="col-auto">
-                            <label for="inputPassword2" class="visually-hidden">Password</label>
                             <input type="email" class="form-control" id="email" placeholder="Your email">
                         </div>
                         <div class="col-auto button">

@@ -3,32 +3,45 @@
     color: #fff;
     background-image: url('../img/iphone1.png');
     background-size: 1554px 887px;
-    height: 696px;
+    //height: 696px;
     background-repeat: no-repeat;
     background-position: 51% 7px;
     margin-top: 92px;
+    @media (max-width:1500px){
+        background-size: 90% 100%;
+    }
     .head__title {
         text-align: center;
         @include title;
         font-size: 90px;
         font-weight: 500;
         padding: 202px 0 64px;
+        @media (max-width:1200px){
+            padding: 150px 0 40px;
+            font-size: 55px;
+        }
+        @media (max-width:768px){
+            font-size: 40px;
+        }
     }
     button {
         font-family: $font-subtitle;
         font-size: 30px;
         line-height: 1.2;
         width: 245px;
-        img {
-            //margin: 0 0 3px 7px;
-        }
         span {
             padding: 10px 0 0 15px;
         }
-    }
-    button:hover img {
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
+        @media (max-width:1200px){
+            font-size: 22px;
+            width: auto;
+        }
+        @media (max-width:800px){
+            img{
+               width: 30px;
+               height: 35px; 
+            }
+        }
     }
     .head__slider-item {
         align-items: initial;
@@ -42,9 +55,13 @@
         }
     }
     .head__slider {
+        padding-bottom: 40px;
         .slick-list {
             margin-bottom: 159px;
             overflow: hidden;
+            @media (max-width:1200px){
+                margin-bottom: 100px;
+            }
         }
         .slick-track {
             display: flex;

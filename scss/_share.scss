@@ -3,6 +3,26 @@
     background-color: #262626;
     .share-wrapper {
         display: flex;
+        flex-direction: row-reverse;
+        .carousel{
+            width: 180px;
+        }
+        .carousel-inner{
+            width: 170px;
+        }
+        .share__sliderr{
+            display: flex;
+            padding: 37px 0 0 8px;
+            gap: 23px;
+            .share__slider-subt{
+                font-style: $font-subtitle;
+                font-size: 16px;
+                line-height: 23px;
+                color: #aeaeae;
+                padding: 0 119px 0 7px;
+            }
+        }
+        
         .share__img img {
             //height: 689px;
             //width: 664px;

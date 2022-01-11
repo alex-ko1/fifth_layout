@@ -1,29 +1,50 @@
 .overview {
     text-align: center;
     .overview-wrapper {
-        padding-bottom: 112px;
+        padding-bottom: 114px;
+        @media (max-width:768px){
+            padding-bottom: 60px;
+        }
         color: #666666;
         h1.overview__title {
             @include title;
             color: #3a3a3a;
             text-align: center;
             padding: 99px 0 53px 5px;
+            @media (max-width:768px){
+                padding: 50px 0 40px;
+                font-size: 55px;
+            }
         }
         div.overview__title {
             @include little-title;
             
-            margin: 39px 15px 0 0;
+            margin: 36px 0 0;
         }
         .overview__subtitle {
             font-family: $font-subtitle;
             font-size: 16px;
-            padding: 2px 50px 0 35px;
+            padding: 2px 0 0 15px;
+            @media (max-width:768px){
+                padding: 2px 100px 0 90px;
+                font-size: 14px;
+            }
         }
         .row {
             padding-left: 5px;
+            @media (max-width:768px){
+                display: block;
+                img{
+                    width: 150px;
+                    height: 150px;
+                }
+            }
         }
         .overview__col {
             margin: 1px 0 0 41px;
+            @media (max-width:768px){
+                margin: 1px 0 0 ;
+            }
         }
     }
 }
