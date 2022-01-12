@@ -1,17 +1,86 @@
 .features {
     height: 803px;
+    @media (max-width: 1200px){
+        height: 650px;
+    }
+    @media (max-width: 992px){
+        height: 500px;
+    }
+    @media (max-width:768px){
+        height: 490px;
+    }
+    @media (max-width: 676px){
+        height: 700px;
+        margin: 0 auto;
+    }
     background-color: #313131;
     position: relative;
     overflow: hidden;
     .features-wrapper {
         display: flex;
-        img {
-            padding: 44px 31px 0; 
+        .row{
+            @media (max-width: 676px){
+                display: block;
+                & .col-sm-6{
+
+                }
+            }
+        }
+        .features__slider-img{
+            img {
+                padding: 44px 31px 0;
+                @media (max-width: 1200px){
+                    padding-top:25px;
+
+                }
+                @media (max-width: 992px){
+                }
+                @media (max-width:768px){
+                    margin-top: 20px;
+                    padding: 10px 10px 0;
+                    width: 75px;
+                    height: 65px;
+                } 
+            }
+        }
+        .features__img{
+            img{
+                padding: 101px 0 0 61px;
+                @media (max-width: 1200px){
+                    width: 400px;
+                    height: 800px;
+                }
+                @media (max-width: 992px){
+                    width: 350px;
+                    height: 750px;
+                    padding-top: 50px;
+                }
+                @media (max-width:768px){
+                    margin-left: 0;
+                    width: 310px;
+                    height: 600px;
+                }
+            }
         }
         .features__title {
             @include title;
             color: #fff;
             margin: 165px 0 0 90px;
+            @media (max-width: 1200px){
+                margin-top: 60px;
+            }
+            @media (max-width: 992px){
+                margin: 40px 0 0 30px;
+                font-size: 35px;
+            }
+            @media (max-width:768px){
+                text-align: center;
+                font-size: 28px;
+                margin-left: 0;
+            }
+            @media (max-width: 676px){
+                text-align: center;
+            }
         }
         .features__subtitle {
             font-style: $font-subtitle;
@@ -19,11 +88,41 @@
             line-height: 27px;
             color: #aeaeae;
             padding: 24px 0 0 90px;
+            @media (max-width: 1200px){
+            }
+            @media (max-width: 992px){
+                font-size: 17px;
+                padding-left: 30px;
+            }
+            @media (max-width:768px){
+                text-align: center;
+                font-size: 16px;
+                padding-left: 0;
+            }
         }
         .features__slider-flex-2{
             padding-top: 33px;
+            @media (max-width: 1200px){
+                padding-top:10px;
+
+            }
+            @media (max-width: 992px){
+            }
+            @media (max-width:768px){
+            } 
             .features__slider-subtitle{
                 padding: 6px 35px 28px 0; 
+                @media (max-width: 1200px){
+                    padding-right: 9px;
+                    padding-bottom: 10px;
+                    font-size: 15px;
+                }
+                @media (max-width: 992px){
+                    font-size: 13px;
+                }
+                @media (max-width:768px){
+                    font-size: 12px;
+                }
             }
         }
         .features__slider-item {
@@ -32,27 +131,6 @@
             .features__slider-title {
                 color: #cc5858;
                 font-size: 18px;
-                &.item-2 {
-                    color: aqua;
-                }
-                &.item-3 {
-                    color: darkblue;
-                }
-                &.item-4 {
-                    color: darkmagenta;
-                }
-                &.item-4 {
-                    color: darkorchid;
-                }
-                &.item-5 {
-                    color: gold;
-                }
-                &.item-6 {
-                    color: greenyellow;
-                }
-                &.item-2 {
-                    color: green;
-                }
             }
         }
         .features__slider {
@@ -60,8 +138,22 @@
             overflow: hidden;
             width: 560px;
             padding: 50px 0 0 90px;
+            @media (max-width: 1200px){
+                width: 460px;
+                padding: 50px 0 0 60px;
+            }
+            @media (max-width: 992px){
+                width: 400px;
+                padding: 30px 0 0 30px;
+            }
+            @media (max-width:768px){
+                width: 300px;
+                padding-left: 0;
+            }
             .slick-slide {
                 width: 400px;
+                border-top-left-radius:5px;
+                border-top-right-radius:5px;
             }
             .features__slider-item {
                 display: flex;

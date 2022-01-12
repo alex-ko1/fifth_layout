@@ -5,15 +5,43 @@ footer {
             padding: 93px 0 61px 2px;
             //padding: 0;
             @include little-title;
+            @media (max-width: 1200px){
+                padding: 70px 0 0 2px;
+            }
+            @media (max-width: 992px){
+                font-size: 17px;
+            }
+            @media (max-width:768px){
+            font-size: 16px;
+            }
         }
         .footer__submit {
             padding-left: 18px;
             input {
                 width: 311px;
                 padding: 10px 0 12px 13px;
+                @media (max-width: 1200px){
+
+                }
+                @media (max-width: 992px){
+                    width: 100%;
+                    min-width: 100%;
+                }
+                @media (max-width:768px){
+                }
             }
             .footer__submit-txt {
                 padding: 35px 0 13px;
+                @media (max-width: 1200px){
+                    padding-top: 0;
+                }
+                @media (max-width: 992px){
+                    text-align: left;
+                    font-size: 15px;
+                }
+                @media (max-width:768px){
+                    font-size: 14px;
+                }
             }
             .button {
                 padding: 0;
@@ -22,6 +50,13 @@ footer {
                     background-color: #f06464;
                     border-color: #f06464;
                     border-radius: 5px;
+                    @media (max-width: 1200px){
+                        margin-left: 8px;
+                    }
+                    @media (max-width: 992px){
+                    }
+                    @media (max-width:768px){
+                    }
                 }
             }
         }

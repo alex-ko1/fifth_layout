@@ -3,6 +3,9 @@
     .compatibility-wrapper {
         color: #666;
         padding: 76px 0 120px;
+        @media (max-width:768px){
+            padding: 40px 0;
+        }
         h1 {
             margin: 0;
             @include title;
@@ -10,6 +13,17 @@
             font-size: 24px;
             margin: 11px 0 0 88px;
             padding-bottom: 19px;
+            @media (max-width:1200px){
+                margin-left: 71px;
+            }
+            @media (max-width: 992px){
+                margin-left: 51px;
+            }
+            @media (max-width:768px){
+                text-align: center;
+                margin-left: 0;
+                padding-right: 0;
+            }
         }
         .compatibility__txt-ios {
             padding: 0;
@@ -17,14 +31,29 @@
             .compatibility__title {
                 font-size: 18px;
                 margin: 31px 0 0;
+                @media (max-width:768px){
+                    text-align: center;
+                }
             }
             .compatibility__subtitle {
                 font-size: 16px;
                 padding-right: 38px;
-                line-height: 24px
+                line-height: 24px;
+                @media (max-width: 992px){
+                    font-size: 15px;
+                    padding-right: 25px;
+                }
+                @media (max-width:768px){
+                    padding: 0 40px;
+                    font-size: 14px;
+                    text-align: center;
+                }
             }
             .compatibility__img {
                 margin: 25px 0 0 1px;
+                 @media (max-width:768px){
+                    text-align: center;
+                }
             }
         }
         .compatibility__txt-android {
@@ -33,13 +62,32 @@
             .compatibility__title {
                 font-size: 18px;
                 margin: 31px 0 0;
+                @media (max-width:768px){
+                    text-align: center;
+                }
             }
             .compatibility__subtitle {
                 font-size: 16px;
-                line-height: 24px
+                line-height: 24px;
+                @media (max-width: 992px){
+                    font-size: 15px;
+                }
+                @media (max-width:768px){
+                    font-size: 14px;
+                    text-align: center;
+                }
             }
             .compatibility__img {
                 margin-top: 32px;
+                @media (max-width:992px) {
+                    margin-top: 25px;
+                    img.img-android{
+                        width: 270px;
+                    }
+                }
+                @media (max-width:768px){
+                    text-align: center;
+                }
             }
         }
     }

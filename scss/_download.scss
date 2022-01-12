@@ -6,21 +6,63 @@
     .download-wrapper {
         display: flex;
         padding-bottom: 220px;
-        .row{
+        @media (max-width:1200px){
+            padding-bottom: 50px;
+        }
+        &>.row{
             gap: 120px;
+            @media (max-width:1200px){
+                gap: 60px;
+            }
+            @media (max-width: 992px){
+                gap: 0px;
+
+            }
             .download__img {
                 // height: 460px;
                 // width: 705px;
                 margin-top: 224px;
+                @media (max-width: 1200px){
+                    margin-top: 100px;
+                }
+                @media (max-width: 992px){
+                    margin: 85px 0 0;
+
+                }
+                @media (max-width:768px){
+                    text-align: center;
+                    margin-top: 40px;
+                }
                 img {
                     margin-left: 85px;
+                    @media (max-width: 992px){
+                        margin-left: 30px;
+                    }
+                    @media (max-width:768px){
+                        margin-left: 0;
+                        width: 150px;
+                        height: 150px;
+                    }
                 }
             }
             .download__text {
-                margin: 169px 0 0 15px;
                 .download__title {
+                    margin: 169px 0 0 15px;
                     @include title;
                     color: #fff;
+                    @media (max-width: 1200px){
+                        margin-top: 60px;
+                        font-size: 45px;
+                    }
+                    @media (max-width: 992px){
+                        margin-top:30px;
+                        font-size: 35px;
+                    }
+                    @media (max-width:768px){
+                        text-align: center;
+                        font-size: 28px;
+                        margin-right: 0;
+                    }
                 }
                 .download__subtitle {
                     font-style: $font-subtitle;
@@ -28,6 +70,10 @@
                     line-height: 27px;
                     color: #fff;
                     margin-top: 17px;
+                    margin-left: 13px;
+                    @media (max-width:768px){
+                        text-align: right;
+                    }
                 }
                 button {
                     font-family: $font-subtitle;
@@ -36,6 +82,16 @@
                     width: 245px;
                     border: 3px solid #fff;
                     padding: 0.5rem 0.75rem;
+                    @media (max-width:1200px){
+                        font-size: 22px;
+                        width: auto;
+                    }
+                    @media (max-width:968px){
+                        img{
+                           width: 35px;
+                           height: 35px; 
+                        }
+                    }
                     span {
                         padding: 0 0 0 15px;
                     }
@@ -45,7 +101,14 @@
                     //display: flex;
                     gap: 38px;
                     margin: 0;
-                    padding-top: 29px;
+                    padding: 29px 0 0 17px;
+                    @media (max-width:1200px){
+                        gap: 28px;
+                    }
+                    @media (max-width: 992px){
+                        padding:0 0 0 17px;
+                    }
+                    
                 }
                 .button-ps {
                     img {
