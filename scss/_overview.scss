@@ -3,7 +3,10 @@
     .overview-wrapper {
         padding-bottom: 114px;
         @media (max-width:768px){
-            padding-bottom: 60px;
+            padding-bottom: 50px;
+        }
+        @media (max-width: 450px){
+            padding-bottom: 20px;
         }
         color: #666666;
         h1.overview__title {
@@ -18,11 +21,18 @@
                 padding: 40px 0;
                 font-size: 40px;
             }
+            @media (max-width: 568px){
+                padding: 20px 0;
+                font-size: 30px;
+            }
         }
         div.overview__title {
             @include little-title;
             
             margin: 36px 0 0;
+            @media (max-width: 568px){
+               margin-top: 15px;
+            }
         }
         .overview__subtitle {
             font-family: $font-subtitle;
@@ -33,6 +43,10 @@
             }
             @media (max-width:767px){
                 font-size: 14px;
+                padding: 2px 50px 20px;
+            }
+            @media (max-width:767px){
+                padding: 2px 10px 20px;
             }
         }
         .row {
@@ -42,6 +56,12 @@
                 img{
                     width: 150px;
                     height: 150px;
+                }
+            }
+            @media (max-width: 568px){
+                img{
+                    width: 100px;
+                    height: 100px;
                 }
             }
         }

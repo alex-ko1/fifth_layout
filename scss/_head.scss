@@ -8,7 +8,16 @@
     background-position: 51% 7px;
     margin-top: 92px;
     @media (max-width:1500px){
-        background-size: 90% 100%;
+        background-size: 95% 95%;
+    }
+    @media (max-width:1200px){
+        margin-top: 90px;
+    }
+    @media (max-width:968px){
+        background-size: 95% 120%;
+    }
+    @media (max-width:568px){
+        background-size: 95% 85%;
     }
     .head__title {
         text-align: center;
@@ -21,7 +30,11 @@
             font-size: 55px;
         }
         @media (max-width:768px){
+            padding-top: 100px;
             font-size: 40px;
+        }
+        @media (max-width:568px){
+            padding-top: 80px;
         }
     }
     button {
@@ -37,6 +50,7 @@
             width: auto;
         }
         @media (max-width:800px){
+            font-size: 18px;
             img{
                width: 30px;
                height: 35px; 
@@ -56,11 +70,20 @@
     }
     .head__slider {
         padding-bottom: 40px;
+        @media (max-width:768px){
+            padding-bottom: 20px;
+        }
         .slick-list {
             margin-bottom: 159px;
             overflow: hidden;
             @media (max-width:1200px){
                 margin-bottom: 100px;
+            }
+            @media (max-width:968px){
+                margin-bottom: 50px;
+            }
+            @media (max-width:768px){
+                margin-bottom: 30px;
             }
         }
         .slick-track {
