@@ -16,7 +16,7 @@
             }
             &.header__link{
             margin-right:27px;
-            padding-top: 21px;
+            padding-top: 20px;
             }
             &.header__link-last{
                 margin-right: 0;
@@ -29,13 +29,13 @@
         font-size: 50px;
         font-weight: 700;
         color: #ffffff;
-        padding: 19px 0 16px;
+        padding: 15px 0 16px;
     }
     a {
         @include little-title;
         font-family: $font-subtitle;
     }
-    .collapse {
-        justify-content: space-between;
-    }
+    // .collapse {
+    //     justify-content: space-between;
+    // }
 }

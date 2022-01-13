@@ -10,7 +10,7 @@
         height: 490px;
     }
     @media (max-width: 676px){
-        height: 700px;
+        height: 800px;
         margin: 0 auto;
     }
     background-color: #313131;
@@ -22,7 +22,7 @@
             @media (max-width: 676px){
                 display: block;
                 & .col-sm-6{
-
+                    width: 100%;
                 }
             }
         }
@@ -149,6 +149,10 @@
             @media (max-width:768px){
                 width: 300px;
                 padding-left: 0;
+            }
+            @media (max-width:676px){
+                width: 400px;
+                margin: 0 auto;
             }
             .slick-slide {
                 width: 400px;
