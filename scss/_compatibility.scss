@@ -76,6 +76,9 @@
                     font-size: 14px;
                     text-align: center;
                 }
+                @media (max-width:568px){
+                    padding: 0 40px;
+                }
             }
             .compatibility__img {
                 margin-top: 32px;
