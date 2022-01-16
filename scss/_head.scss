@@ -6,18 +6,19 @@
     //height: 696px;
     background-repeat: no-repeat;
     background-position: 51% 7px;
-    margin-top: 92px;
+    margin-top: 91px;
     @media (max-width:1500px){
         background-size: 95% 95%;
+        margin-top: 90px;
     }
     @media (max-width:1200px){
-        margin-top: 90px;
     }
     @media (max-width:968px){
         background-size: 95% 120%;
     }
     @media (max-width:568px){
         background-size: 95% 85%;
+        margin-top: 74px;
     }
     .head__title {
         text-align: center;

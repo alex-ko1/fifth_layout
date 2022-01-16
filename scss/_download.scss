@@ -76,6 +76,11 @@
                         font-size: 20px;
                     }
                 }
+                .row{
+                    @media (min-width:900px) and (max-width:992px){
+                        width: max-content;
+                    }
+                }
                 button {
                     font-family: $font-subtitle;
                     font-size: 30px;

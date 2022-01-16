@@ -3,8 +3,15 @@
     background-color: #de5d5d;
     color: #fff;
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.1);
+    @media (max-width:568px) {
+        height: 75px;
+    }
     .container {
         padding: 0;
+        @media  (max-width:568px) {
+            width: 100%;
+            justify-content: space-around;
+        }
     }
     .navbar {
         padding: 0;
@@ -23,6 +30,9 @@
                 padding-right: 0;
             }
         }
+        .navbar-collapse{
+            background-color: #de5d5d;
+        }
     }
     .logo {
         font-family: $font-title;
@@ -30,6 +40,13 @@
         font-weight: 700;
         color: #ffffff;
         padding: 15px 0 16px;
+        &:hover{
+            color:rgba(255,255,255,.75);
+        }
+        @media (max-width:568px) {
+            padding-top: 5px;
+            padding-bottom: 9px;
+        }
     }
     a {
         @include little-title;
